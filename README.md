@@ -166,20 +166,20 @@ homelyhub/
 
 ## 🎯 Future Improvements
 
-- [ ] Add payment gateway (Razorpay/Stripe)
-- [ ] Add reviews and ratings
-- [ ] Add photo upload from computer
-- [ ] Add email notifications
-- [ ] Add admin dashboard
-- [ ] Add Google Maps integration
+-  Add payment gateway (Razorpay/Stripe)
+-  Add reviews and ratings
+-  Add photo upload from computer
+-  Add email notifications
+-  Add admin dashboard
+-  Add Google Maps integration
 
 ---
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: https://github.com/sumanth-nallajonnala
+- Email: sumanth.nljna@gmail.com
 
 ---
 
@@ -197,4 +197,4 @@ This project is for learning purposes. Feel free to use it!
 
 ---
 
-**Made with ❤️ by [Your Name]**
+Made with ❤️ by Sumanth Nallajonnala...
