@@ -20,7 +20,7 @@ A simple website where people can find and book places to stay while traveling a
 
 ### Test the Application
 Visit the live website and explore:
-- Browse 52+ properties across India
+- Browse 45+ properties across India
 - Register/Login functionality
 - Search and filter properties
 - View detailed property information
