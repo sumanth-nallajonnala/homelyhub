@@ -10,6 +10,85 @@ A simple website where people can find and book places to stay while traveling a
 - **Secure login** for all users
 
 ---
+## 🌐 Live Demo
+
+**🚀 Application is LIVE and deployed!**
+
+- **Frontend Website:** https://homelyhub-green.vercel.app
+- **Backend API:** https://homelyhub-backend-qg4b.onrender.com/api
+- **Database:** MongoDB Atlas (Cloud)
+
+### Test the Application
+Visit the live website and explore:
+- Browse 52+ properties across India
+- Register/Login functionality
+- Search and filter properties
+- View detailed property information
+- Book properties (for registered users)
+
+---
+
+## 📦 Deployment Stack
+
+| Component | Platform | Status |
+|-----------|----------|--------|
+| **Frontend** | [Vercel](https://vercel.com) | ✅ Live |
+| **Backend** | [Render](https://render.com) | ✅ Live |
+| **Database** | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) | ✅ Live |
+
+---
+
+## 🔐 Test Credentials
+
+For testing purposes, you can use:
+
+**Host Account:**
+- Email: `host@homelyhub.com`
+- Password: `password123`
+
+**Note:** Feel free to create your own account!
+
+---
+
+## ⚙️ Deployment Details
+
+### Frontend Deployment (Vercel)
+- **Framework:** React (Create React App)
+- **Build Command:** `npm run build`
+- **Output Directory:** `build`
+- **Environment Variables:** `REACT_APP_API_URL`
+
+### Backend Deployment (Render)
+- **Runtime:** Node.js
+- **Build Command:** `npm install`
+- **Start Command:** `npm start`
+- **Environment Variables:** 
+  - `MONGO_URI` - MongoDB connection string
+  - `JWT_SECRET` - JWT authentication secret
+  - `NODE_ENV=production`
+
+### Database (MongoDB Atlas)
+- **Cluster Type:** M0 (Free tier)
+- **Region:** Asia-Pacific
+- **Collections:** users, properties, bookings
+
+---
+
+## 🚀 Auto-Deployment
+
+Both frontend and backend are configured for automatic deployment:
+- **Push to GitHub** → Automatically deploys to Vercel (frontend) and Render (backend)
+- **Changes are live** within 2-5 minutes after pushing
+
+---
+
+## ⚡ Performance Notes
+
+- **Backend Wake-Up Time:** The backend may take 30-60 seconds to wake up on the first request after inactivity (Render free tier limitation)
+- **Solution:** We've implemented a cron job that pings the backend every 10 minutes to keep it active
+- **Frontend:** Globally distributed via Vercel CDN for fast loading worldwide
+
+---
 
 ## 🛠️ Technologies Used
 
